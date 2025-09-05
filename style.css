@@ -23,10 +23,13 @@ h1 {
   margin-bottom: 10px;
 }
 
+/* подзаголовок */
 .subtitle {
   margin-bottom: 50px;
-  color: #444;
   font-size: 18px;
+  background: linear-gradient(45deg, #ff6600, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /* контент */
@@ -73,6 +76,12 @@ h1 {
   transform: translateY(-5px);
 }
 
+.card h3, .card p {
+  background: linear-gradient(45deg, #ff6600, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 /* статистика */
 .stats {
   display: flex;
@@ -98,6 +107,13 @@ h1 {
   margin: 0;
   font-size: 28px;
   background: linear-gradient(45deg, #ff6600, #ff9900);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.stat p {
+  margin-top: 10px;
+  background: linear-gradient(45deg, #ff6600, #ffffff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
