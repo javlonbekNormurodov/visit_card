@@ -1,8 +1,8 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #0f0f1c;
-  color: #fff;
+  background-color: #1E2530;
+  color: #F0F0F0;
 }
 
 .container {
@@ -14,11 +14,12 @@ body {
 
 h1 {
   font-size: 28px;
+  color: #FFFFFF;
 }
 
 .subtitle {
   margin-bottom: 40px;
-  color: #ccc;
+  color: #F0F0F0;
 }
 
 .content {
@@ -38,11 +39,12 @@ h1 {
 .center img {
   width: 100%;
   border-radius: 15px;
-  background: #ff6600;
+  background: #FF6600;
 }
 
 .card {
-  background: #1c1c2e;
+  background: #2A3340;
+  color: #F0F0F0;
   padding: 15px;
   margin-bottom: 15px;
   border-radius: 10px;
@@ -56,7 +58,8 @@ h1 {
 }
 
 .stat {
-  background: #1c1c2e;
+  background: #2A3340;
+  color: #F0F0F0;
   flex: 1;
   padding: 20px;
   border-radius: 10px;
@@ -64,7 +67,7 @@ h1 {
 
 .stat h2 {
   margin: 0;
-  color: #ff3366;
+  color: #FF6600;
 }
 
 .buttons {
@@ -72,12 +75,12 @@ h1 {
   display: flex;
   justify-content: center;
   gap: 20px;
-  flex-wrap: wrap; /* чтобы кнопки переносились на маленьких экранах */
+  flex-wrap: wrap;
 }
 
 .btn {
-  background: linear-gradient(45deg, #ff3366, #ff6699);
-  color: white;
+  background: linear-gradient(45deg, #FF6600, #FF8C42);
+  color: #FFFFFF;
   padding: 12px 20px;
   border-radius: 25px;
   text-decoration: none;
@@ -89,7 +92,7 @@ h1 {
   opacity: 0.8;
 }
 
-/* 📱 Адаптивность для телефонов */
+/* Адаптивность */
 @media (max-width: 767px) {
   .content {
     flex-direction: column;
